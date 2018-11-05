@@ -1,0 +1,66 @@
+/*This is a CSS comment*/
+
+body {
+padding: 0;
+text-align: justify;
+font-family: "Century Gothic", Verdana, sans-serif;
+font-size: 13px;
+color: #25323A;
+/*background-color:#c4e3e8; Q1b commented out to improve readability*/
+}
+
+p {text-align: left;
+}
+
+.ourchead{font-size: 24px;
+}
+
+.navbar
+{
+width: 480px;
+height: 55px; /*Q1 Missing semicolons 20, 21*/
+position:absolute; top: 50px;/*Q1 links separated from header*/
+margin-left:20px;
+margin-right:20px;
+font-size: 14px;
+color: #2C496912
+}
+
+a
+{
+/*text-decoration:none; Q1bcommented out to make links more relevant*/
+/*color:#2C4969; Q1bcommented out to differentiate between clicked and unclicked*/
+}
+
+#aside
+{
+margin: 0; 
+/*height: 100%;*/  
+position: absolute; left: 700px; top:200px;/*To distinguished from main content*/
+width: 300px;
+background-color:aliceblue; /*To distinguished from main content*/
+}
+
+#sectionhome{
+position: absolute; left: 12px; top: 100px;
+width:640px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #000000;
+text-align: left;
+}
+
+#tableoctober{
+position: absolute; top: 150px; /*Q1 position*/   
+}
+
+#footer {
+position: absolute; left: 12px; top: 740px;
+width: 680px;
+height:60px;
+text-align:center;
+font-size:10px;
+color:red;
+padding-top:24px;
+}
+
