@@ -18,9 +18,9 @@ p {text-align: left;
 
 .navbar
 {
-width: 480px;
+width: 600px;
 height: 55px; /*Q1 Missing semicolons 20, 21*/
-position:absolute; top: 50px;left: 300px;/*Q1 links separated from header*/
+position:absolute; top: 50px;left: 270px;/*Q1 links separated from header*/
 margin-left:20px;
 margin-right:20px;
 font-size: 14px;
