@@ -13,17 +13,18 @@ p {text-align: left;
 }
 
 .ourchead{font-size: 24px;
+    position: absolute; left: 350px;
 }
 
 .navbar
 {
 width: 480px;
 height: 55px; /*Q1 Missing semicolons 20, 21*/
-position:absolute; top: 50px;/*Q1 links separated from header*/
+position:absolute; top: 50px;left: 300px;/*Q1 links separated from header*/
 margin-left:20px;
 margin-right:20px;
 font-size: 14px;
-color: #2C496912
+color: #2C4969;
 }
 
 a
@@ -51,11 +52,22 @@ text-align: left;
 }
 
 #tableoctober{
-position: absolute; top: 150px; /*Q1 position*/   
+position: absolute; top: 150px; left: 300px/*Q1 position*/ 
 }
 
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+th, td{
+    width: 50px;
+}
+tr:hover{
+    background-color: lightblue;
+}
 #footer {
-position: absolute; left: 12px; top: 740px;
+position: absolute; left: 170px; top: 740px;
 width: 680px;
 height:60px;
 text-align:center;
